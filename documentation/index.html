@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>FOXic - eCommerce HTML Template - Documentation</title>
+
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="js/syntaxhighlighter/styles/shCore.css">
+	<link rel="stylesheet" href="js/syntaxhighlighter/styles/shThemeDefault.css">
+	<link rel="stylesheet" href="icomoon/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+</head>
+
+<body>
+	<header class="navbar fixed-top page-header">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="row-flex">
+					<div class="logo">
+						<a href="#"><img src="images/logo.png" alt=""></a>
+					</div>
+					<div class="header-link">
+						<div><span class="icon icon-call"></span> <a href="http://help.big-skins.com/" target="_blank">online support</a></div>
+						<div class="time"><span class="icon icon-clock"></span> MON-FRI: 10:00AM-18:00PM GMT + 2</div>
+						<a href="https://themeforest.net/user/bigsteps" target="_blank"><i class="icon icon-themeforest"></i></a>
+						<a href="https://www.twitter.com/BigStepsCompany/" target="_blank"><i class="icon icon-twitter"></i></a>
+						<a href="https://www.facebook.com/BigStepsCompany/" target="_blank"><i class="icon icon-facebook"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row row-flex">
+			<!-- Sidebar -->
+			<div class="aside col-sm-3">
+				<nav class="collapse show navbar-collapse" role="navigation">
+					<ul class="nav sidebar-nav affix" id="sidebar">
+						<li class="collapsed opened"> <a href="#GettingStarted" class="auto-open">Getting Started </a> <span class="toggle"></span>
+							<ul class="submenu" style="display: none;">
+								<li><a href="#Installation" class="">Installation</a></li>
+								<li><a href="#HTMLStructure" class="">HTML Structure</a></li>
+								<li><a href="#ColorSchemes" class="">Color Schemes</a></li>
+								<li><a href="#ChangingFonts" class="">Changing Fonts</a></li>
+								<li><a href="#Grid" class="">Grid</a></li>
+							</ul>
+						</li>
+						<li class="collapsed"> <a href="#Headers" class="auto-open">Header</a><span class="toggle"></span>
+							<ul class="submenu" style="display: none;">
+								<li><a href="#HeaderTypes" class="">Header Types</a></li>
+								<li><a href="#HeaderSticky" class="">Sticky Header</a></li>
+								<li><a href="#HeaderTransparent" class="">Transparent Header</a></li>
+								<li><a href="#MobileHeader" class="">Mobile Header</a></li>
+								<li><a href="#MegaMenu" class="">Megamenu</a></li>
+							</ul>
+						</li>
+						<li class="collapsed"> <a href="#Footer" class="auto-open">Footer</a><span class="toggle"></span>
+							<ul class="submenu" style="display: none;">
+								<li><a href="#FooterTypes" class="">Footer Types</a></li>
+								<li><a href="#FooterStructure" class="">Footer Structure</a></li>
+								<li><a href="#FooterMobile" class="">Mobile Footer</a></li>
+							</ul>
+						</li>
+						<li class="collapsed"> <a href="#Slider" class="auto-open">Slider</a><span class="toggle"></span>
+							<ul class="submenu" style="display: none;">
+								<li><a href="#SliderStructure" class="">Slider Structure</a></li>
+								<li><a href="#SliderOptions" class="">Slider Options</a></li>
+							</ul>
+						</li>
+						<li class="collapsed"> <a href="#ProductPreview" class="auto-open">Product Preview</a><span class="toggle"></span>
+							<ul class="submenu" style="display: none;">
+								<li><a href="#ProductVariants" class="">Product Preview Variants</a></li>
+								<li><a href="#CountDown" class="">CountDown</a></li>
+								<li><a href="#ProductLabels" class="">Product Labels</a></li>
+								<li><a href="#QuickView" class="">Quick View</a></li>
+								<li><a href="#ProductGrid" class="">Product Grid</a></li>
+								<li><a href="#ProductCarousel" class="">Product Carousel</a></li>
+							</ul>
+						</li>
+						<li class="collapsed"><a href="#ProductPage" class="auto-open">Product Page</a></li>
+						<li class="collapsed"> <a href="#CategoryPage" class="auto-open">Category Page</a><span class="toggle"></span>
+							<ul class="submenu" style="display: none;">
+								<li><a href="#ProductGridMode" class="">Product View Mode</a></li>
+								<li><a href="#ProductFiltersPosition" class="">Product Filters Position</a></li>
+							</ul>
+						</li>
+						<li class="collapsed"><a href="#Typography" class="auto-open">Typography</a></li>
+						<li class="collapsed"><a href="#Icons" class="auto-open">Icons Font</a></li>
+						<li class="collapsed"><a href="#Instagram" class="auto-open">Instagram Feed</a></li>
+						<!--<li class="collapsed"> <a href="#Gulp" class="auto-open">Gulp</a></li>-->
+						<li class="collapsed"> <a href="#Credits" class="auto-open">Credits</a></li>
+					</ul>
+				</nav>
+
+			</div>
+			<!-- /Sidebar -->
+			<!-- Page Content -->
+			<div class="aside col-sm-9">
+				<div id="page-content-wrapper">
+					<div class="content">
+						<section id="GettingStarted">
+							<br>
+							<h1> Welcome to Bigsteps!</h1>
+							<blockquote>
+								<p> We would like to thank you for purchasing FOXic eCommerce HTML Template!
+									Before you get started, please be sure to always check out this documentation.</p>
+								<p> If You have any questions that are beyond the scope of this documentation, please feel free to submit a ticket to <a href="https://big-skins.com/support" target="_blank">https://big-skins.com/support</a></p>
+								<p> We're very happy to help you and you will get a reply from us faster than you expected.
+									Thank you, we hope you to enjoy using FOXic eCommerce HTML5 Template!</p>
+							</blockquote>
+						</section>
+						<section id="Installation">
+							<h2 class="dark">Getting Started</h2>
+							<h2>Installation</h2>
+							<p>Follow the steps below to get started with your site template:</p>
+							<ol>
+								<li>Open the html folder to find all themes files</li>
+								<li>You will need to <strong>upload</strong> these files to your <strong>web server</strong> using FTP.</li>
+								<li>Make sure you've uploaded all files/folders listed below:
+									<ul>
+										<li>html/css - stylesheets folder</li>
+										<li>html/images - images folder</li>
+										<li>html/js - javacripts folder</li>
+										<li>html/fonts - fonts folder</li>
+										<li>html/index.html - index file/homepage</li>
+									</ul> Other files can be used according to your preferences.</li>
+								<li>Now you can start adding your content.</li>
+							</ol>
+						</section>
+						<section id="HTMLStructure">
+							<h2>HTML Structure</h2>
+							<p>FOXic Template follows a simple HTML code structure for every page. Here is the sample:</p>
+							<pre class="brush: xml, toolbar: false">
+<hеad>
+    <!--Your Stylesheets & Title -->
+    <bоdy class="fullwidth">
+        <!-- Header -->
+        <header class="hdr global_width">
+            ...
+        </header>
+		<!-- /Header -->
+		<!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Content Section-->
+            <div class="holder">
+                <div class="container">
+                    ...
+                </div>
+            </div>
+			<!-- /Page Content Section-->
+            ...
+			<!-- Page Content Section-->
+            <div class="holder">
+                <div class="container">
+                    ...
+                </div>
+            </div>
+			<!-- /Page Content Section-->
+        </div>
+		<!-- /Page Content -->
+		<!-- Footer -->
+        <footer class="page-footer">
+            ...
+        </footer>
+		<!-- /Footer -->
+		<!--Your Scripts -->
+    </bоdy>
+</hеad>
+							</pre>
+							<p>FOXic Template supports boxed & fullwidth page content blocks.</p>
+							
+							<p>By default, each content section  (<mark>.holder</mark>)  is boxed.  You can made it fullwidth or fullboxed by adding <mark>.fullwidth</mark> or <mark>.fullboxed</mark> classes.</p>
+							
+							<p>See the image below:</p>
+							
+							
+							<p class="text-center"><img src="images/screen/layout.png" class="img-fluid" alt=""></p>
+						</section>
+						<section id="ColorSchemes">
+							<h2>Color Schemes</h2>
+							<p>The CSS files are used to change the template appearance like fonts-size, font-color, backgrounds, paddings, margins etc. You can edit the *.css files with any Code Editing Software.</p>
+							<p>You can find all <mark>.css</mark> files in the folder <mark>html/css</mark>.</p>
+							<p>For helping developers write more succinct CSS, and to keep files organized we use SCSS preprocessor. It is basically a scripting language that extends CSS and then compiles it into regular CSS.</p>
+							<p>You can find all <mark>.scss</mark> files in the folder html/scss.</p>
+							<p>In the file scss/_variables.scss you can change any settings for changing your site colour scheme. All variable names are as clear as possible and do not need a description. For example, for changing the colours of buttons you need to change these variables:</p>
+							For example, for changing the buttons colors you need to change this variables:</p>
+<pre class="brush: css, toolbar: false">
+//buttons
+$button_font_family_scss_var: $heading_font_family_scss_var !default;
+$button_font_weight_scss_var: 600 !default;
+$button_font_weight_less_scss_var: 500 !default;
+$button_font_weight_lg_scss_var: 500 !default;
+$button_color_scss_var: #fff !default;
+$button_bg_scss_var: $custom_color_scss_var !default;</pre>
+						
+							<p>FOXic Template has 10 different skins. Each skin has its own colour scheme and owns ready to use style.css file. For example, if you like Fishing skin, then add the file style style-vars-fishing.css</p>
+						 
+						</section>
+						<section id="ChangingFonts">
+							<h2>Fonts</h2>
+							<p>FOXic Template uses external fonts from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> Library by default.
+								You can find the link to the font files in the head tag of the HTML files.</p>
+<pre class="brush: xml, toolbar: false">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</pre>
+<p>If you want to change the Google Font, you will need to edit the above links with your own font. If you want to use the self-hosted font, remove these links completely.</p>
+						</section>
+						<section id="Grid">
+							<h2>Grid</h2>
+							<p>FOXic Template uses Bootstrap Grid (18 columns). </p>
+							<p>For more details on the Bootstrap Grid, please visit its official <a href="http://getbootstrap.com/" target="_blank">website</a>. </p>
+							<div class="bootstrap-grid">
+								<div class="row">
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+									<div class="col-md-1">.col-md-1</div>
+								</div>
+								<div class="row">
+									<div class="col-md-2">.col-md-2</div>
+									<div class="col-md-2">.col-md-2</div>
+									<div class="col-md-2">.col-md-2</div>
+									<div class="col-md-2">.col-md-2</div>
+									<div class="col-md-2">.col-md-2</div>
+									<div class="col-md-2">.col-md-2</div>
+									<div class="col-md-2">.col-md-2</div>
+									<div class="col-md-2">.col-md-2</div>
+									<div class="col-md-2">.col-md-2</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3">.col-md-3</div>
+									<div class="col-md-3">.col-md-3</div>
+									<div class="col-md-3">.col-md-3</div>
+									<div class="col-md-3">.col-md-3</div>
+									<div class="col-md-3">.col-md-3</div>
+									<div class="col-md-3">.col-md-3</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">.col-md-4</div>
+									<div class="col-md-4">.col-md-4</div>
+									<div class="col-md-4">.col-md-4</div>
+									<div class="col-md-4">.col-md-4</div>
+									<div class="col-md-2">.col-md-2</div>
+								</div>
+								<div class="row">
+									<div class="col-md-5">.col-md-5</div>
+									<div class="col-md-5">.col-md-5</div>
+									<div class="col-md-5">.col-md-5</div>
+									<div class="col-md-3">.col-md-3</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">.col-md-6</div>
+									<div class="col-md-6">.col-md-6</div>
+									<div class="col-md-6">.col-md-6</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">.col-md-4</div>
+									<div class="col-md-12">.col-md-12</div>
+								</div>
+								<div class="row">
+									<div class="col-md-8">.col-md-8</div>
+									<div class="col-md-10">.col-md-10</div>
+								</div>
+								<div class="row">
+									<div class="col-md-9">.col-md-9</div>
+									<div class="col-md-9">.col-md-9</div>
+								</div>
+							</div>
+						</section>
+						
+						<h2 class="dark" id="Headers">Headers</h2>
+						<section id="HeaderTypes">
+							<h2>Header Types</h2>
+							<p>You can choose between 7 types of headers while creating your pages.</p>
+							<br>
+							<h4>Header Variant 1 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-header-01.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/header-v-1.png" alt=""></p>
+							<br>
+							<h4>Header Variant 2 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-header-02.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/header-v-2.png" alt=""></p>
+							<br>
+							<h4>Header Variant 3 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-header-03.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/header-v-3.png" alt=""></p>
+							<br>
+							<h4>Header Variant 4 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-header-04.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/header-v-4.jpg" alt=""></p>
+							<br>
+							<h4>Header Variant 5 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-header-05.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/header-v-5.png" alt=""></p>
+							<br>
+							<h4>Header Variant 6 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-header-06.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/header-v-6.png" alt=""></p>
+							<br>
+							<h4>Header Variant 7 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-header-07.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/header-v-7.png" alt=""></p>
+							<br>
+						</section>
+						<section id="HeaderStructure">
+							<h2>Header Structure</h2>
+							<p>Each header has a similar HTML structure:</p>
+							<pre class="brush: xml, toolbar: false">
+<header class="hdr-wrap">
+   <div class="hdr-content hdr-content-sticky">
+      <!-- Header Sticky content -->
+   </div>
+   <div class="hdr">
+      <div class="hdr-topline hdr-topline--dark js-hdr-top">
+         <!-- Header Topline -->
+      </div>
+      <div class="hdr-content">
+         <!-- Header content -->
+      </div>
+   </div>
+</header>
+<div class="header-side-panel">
+   <!-- Header Slide panels (minicart, account) -->
+</div>
+<div class="mobilemenu js-push-mbmenu">
+   <!-- Header Mobile menu-->
+</div></pre>
+						</section>
+						<section id="HeaderSticky">
+							<h2>Sticky Header</h2>
+							<p>For disabling sticky header remove tag <mark>.hdr-content.hdr-content-sticky</mark> from the basic structure:</p>
+							<pre class="brush: xml, toolbar: false">
+<header class="hdr-wrap">
+   <div class="hdr">
+      <div class="hdr-topline hdr-topline--dark js-hdr-top">
+         <!-- Header Topline -->
+      </div>
+      <div class="hdr-content">
+         <!-- Header content -->
+      </div>
+   </div>
+</header>
+<div class="header-side-panel">
+   <!-- Header Slide panels (minicart, account) -->
+</div>
+<div class="mobilemenu js-push-mbmenu">
+   <!-- Header Mobile menu-->
+</div></pre>
+						</section>
+						<section id="HeaderTransparent">
+							<h2>Transparent Header</h2>
+							<p>For making header transparent add class <mark>.hdr-transparent</mark> to the tag <mark>.hdr-wrap</mark>:</p>
+							<pre class="brush: xml, toolbar: false">
+<header class="hdr-wrap hdr-transparent">
+   <div class="hdr">
+      <div class="hdr-topline hdr-topline--dark js-hdr-top">
+         <!-- Header Topline -->
+      </div>
+      <div class="hdr-content">
+         <!-- Header content -->
+      </div>
+   </div>
+</header></pre><br>
+							<p><img src="images/screen/header-tr.png" alt=""></p>
+						</section>
+						<section id="MobileHeader">
+							<h2>Mobile Header</h2>
+							<p>All headers, regardless of their structure on large screens, on mobile devices look like this:
+							</p>
+							<p><img src="images/screen/header-m.png" alt=""></p>
+							<p>The mobile menu is completely independent of the desktop version and has the following HTML structure:</p>
+							<pre class="brush: xml, toolbar: false"><!-- Mobile Menu -->
+<div class="mobilemenu js-accordeon-mbmenu">
+   <div class="mobilemenu-content">
+      <div class="mobilemenu-close mobilemenu-toggle">...</div>
+      <div class="mobilemenu-scroll">
+         <div class="nav-wrapper show-menu">
+            <ul class="nav nav-level-1">
+               ...
+            </ul>
+         </div>
+         <div class="mobilemenu-bottom">
+            <div class="mobilemenu-currency">
+               ...
+            </div>
+            <div class="mobilemenu-language">
+               ...
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- /Mobile Menu --></pre>
+							<br>
+							<p><img src="images/screen/header-menu.png" alt=""></p>
+						</section>
+						<section id="MegaMenu">
+							<h2>MegaMenu</h2>
+							<p>We provide a very useful way to customize your menu.</p>
+							<p>Each menu item can be displayed in three different variants: no dropdown link, simple dropdown and megamenu link. Here is the basic megamenu structure:</p>
+							<pre class="brush: xml, toolbar: false">
+<div class="hdr-nav hide-mobile nav-holder">
+    <ul class="mmenu mmenu-js">
+        <li><a href="#">Simple Menu Link</a></li>
+        <li class="mmenu-item--simple"><a href="#">Simple DropDown Menu Link</a>...</li>
+        <li class="mmenu-item--mega"><a href="#">MegaMenu Link</a>...</li>
+    </ul>
+</div>
+							</pre>
+							<br>
+							<h4>Simple DropDown Link</h4>
+							<p>Here is the Simple DropDown Link code example:</p> <pre class="brush: xml, toolbar: false">
+	<li class="mmenu-item--simple"><a href="#">Menu Link</a>
+    <div class="mmenu-submenu">
+        <ul class="submenu-list">
+            <li><a href="#">Menu Link Level 2</a>
+                <ul>
+                    <li><a href="#">Menu Link Level 3</a></li>
+                    <li><a href="#">Menu Link Level 3</a></li>
+                    <li><a href="#">Menu Link Level 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#" title="">Menu Link Level 2</a>
+                <ul>
+                    <li><a href="#">Menu Link Level 3</a></li>
+                    <li><a href="#">Menu Link Level 3</a></li>
+                    <li><a href="#">Menu Link Level 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</li></pre>
+							<p>You can use unlimited levels of submenus.</p>
+							<br>
+							<h4>MegaMenu DropDown Link</h4>
+							<p>You can use the megaMenu in 2,3,4 & 5 Columns. Also you can add Left and(or) Right custom block to the megaMenu. MegaMenu grids and codes are provided below:</p>
+							<br>
+							<table class="table table-bordered">
+								<tbody>
+									<tr>
+										<th scope="col">Description</th>
+										<th scope="col">MegaMenu Blocks</th>
+										<th scope="col">Code Example</th>
+									</tr>
+									<tr>
+										<td style="vertical-align: top;">
+											<h6>Only categories columms</h6> </td>
+										<td style="vertical-align: top; min-width: 400px;">
+											<h6>Categories</h6> <mark>.column-5, .column-4, .column-3, .column-2, .column-1</mark>
+											<br><br><h6>5 column <mark>.column-5</mark></h6> <img src="images/screen/mm-1.png" class="img-fluid" alt="">
+											<br>
+											<h6>2 column <mark>.column-2</mark></h6> <img src="images/screen/mm-4.png" class="img-fluid" alt=""> </td>
+										<td style="vertical-align: top;"><pre class="brush: xml, toolbar: false">
+											<li class="mmenu-item--mega">
+												<a href="#">Menu Link</a>
+												<div class="mmenu-submenu mmenu-submenu-with-sublevel">
+													<div class="mmenu-submenu-inside">
+														<div class="container">
+															<div class="mmenu-cols column-5">
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											</pre></td>
+									</tr>
+									<tr>
+										<td style="vertical-align: top;">
+											<h6>Left Block + Categories Columns</h6> </td>
+										<td style="vertical-align: top;">
+											<h6>Left Block</h6> <mark>.width-20, .width-25, .width-33, .width-40</mark>
+											<br><br>
+											<h6>Categories Columns</h6> <mark>.column-5, .column-4, .column-3, .column-2, .column-1</mark> <img src="images/screen/mm-5.png" class="img-fluid" alt=""> </td>
+										<td style="vertical-align: top;"> <pre class="brush: xml, toolbar: false">
+											<li class="mmenu-item--mega">
+												<a href="#">Menu Link</a>
+												<div class="mmenu-submenu mmenu-submenu-with-sublevel">
+													<div class="mmenu-submenu-inside">
+														<div class="container">
+															<!-- megamenu left -->
+															<div class="mmenu-left width-20">
+																...
+															</div>
+															<!-- /megamenu left -->
+															<div class="mmenu-cols column-4">
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											</pre> </td>
+									</tr>
+									<tr>
+										<td style="vertical-align: top;">
+											<h6>Right Block + Categories Columns</h6> </td>
+										<td style="vertical-align: top;">
+											<h6>Right Block</h6> <mark>.width-20, .width-25, .width-33, .width-40</mark>
+											<br><br>
+											<h6>Categories Columns<h6> <mark>.column-5, .column-4, .column-3, .column-2, .column-1</mark>
+										<img src="images/screen/mm-6.png" class="img-fluid" alt="">
+												</td>
+										<td style="vertical-align: top;">
+										<pre class="brush: xml, toolbar: false">
+											<li class="mmenu-item--mega">
+												<a href="#">Menu Link</a>
+												<div class="mmenu-submenu mmenu-submenu-with-sublevel">
+													<div class="mmenu-submenu-inside">
+														<div class="container">
+															<!-- megamenu right -->
+															<div class="mmenu-right width-20">
+																...
+															</div>
+															<!-- /megamenu right -->
+															<div class="mmenu-cols column-4">
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											</pre>
+										</td>
+									</tr>
+									<tr>
+										<td style="vertical-align: top;">
+										<h6>Left Block + Right Block + Categories Columns + Bottom Row</h6> </td>
+										<td style="vertical-align: top;">
+											<h6>Left Block</h6> <mark>.width-20, .width-25, .width-33, .width-40</mark>
+											<h6>Right Block</h6> <mark>.width-20, .width-25, .width-33, .width-40</mark>
+											<br><br>
+											<h6>Categories Columns<h6> <mark>.column-5, .column-4, .column-3, .column-2, .column-1</mark>
+											<h6>Bottom Row<h6>
+										<img src="images/screen/mm-7.png" class="img-fluid" alt="">	
+										</td>
+										<td style="vertical-align: top;">
+										<pre class="brush: xml, toolbar: false">		
+											<li class="mmenu-item--mega">
+												<a href="#">Menu Link</a>
+												<div class="mmenu-submenu mmenu-submenu-with-sublevel">
+													<div class="mmenu-submenu-inside">
+														<div class="container">
+															<!-- megamenu right -->
+															<div class="mmenu-right width-20">
+																...
+															</div>
+															<!-- /megamenu right -->
+															<!-- megamenu left -->
+															<div class="mmenu-left width-20">
+																...
+															</div>
+															<!-- /megamenu left -->
+															<div class="mmenu-cols column-2">
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+																<!-- megamenu column -->
+																<div class="mmenu-col">
+																	...
+																</div>
+																<!-- /megamenu column -->
+															</div>
+															<!-- megamenu bottom -->
+															<div class="mmenu-bottom">
+																...
+															</div>
+															<!-- /megamenu bottom -->
+														</div>
+													</div>
+												</div>
+											</li>
+											</pre>
+										</td>
+									</tr>
+									
+							</table>
+								</tbody>
+						</section>
+						
+						<h2 class="dark" id="Footer">Footer</h2>
+						<section id="FooterTypes">
+							<h2>Footer Types</h2>
+							<p>You can choose between 7 types of footers while creating your pages.</p>
+							<br>
+							<h4>Footer Variant 1 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-footer-01.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/f-1.png" alt=""></p>
+							<br>
+							<h4>Footer Variant 2 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-footer-02.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/f-2.png" alt=""></p>
+							<br>
+							<h4>Footer Variant 3 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-footer-03.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/f-3.png" alt=""></p>
+							<br>
+							<h4>Footer Variant 4 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-footer-04.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/f-4.png" alt=""></p>
+							<br>
+							<h4>Footer Variant 5 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-footer-05.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/f-5.png" alt=""></p>
+							<br>
+							<h4>Footer Variant 6 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-footer-06.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/f-6.png" alt=""></p>
+							<br>
+							<h4>Footer Variant 7 - <a href="https://big-skins.com/frontend/foxic-html-demo/demo-footer-07.html" target="_blank">view demo</a></h4>
+							<p><img src="images/screen/f-7.png" alt=""></p>
+						</section>
+						<section id="FooterStructure">
+							<h2>Footer Structure</h2>
+							<p>Each footer has a similar HTML structure:</p>
+							<pre class="brush: xml, toolbar: false">
+<footer class="page-footer">
+	<div class="footer-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg">
+					<!-- Footer column -->
+				</div>
+				<div class="col-lg">
+					<!-- Footer column -->
+				</div>
+				<div class="col-lg">
+					<!-- Footer column -->
+				</div>
+			</div>
+	</div>
+	<div class="footer-bottom footer-bottom--bg">
+		<div class="container">
+			<div class="footer-copyright text-center">
+				<!-- Footer bottom content -->
+			</div>
+		</div>
+	</div>
+</footer></pre>
+						</section>
+						<section id="FooterMobile">
+							<h2>Mobile Footer</h2>
+							<p>Footers column content on mobile looks like an accordion:</p>
+							<p><img src="images/screen/footer-m.png" alt=""></p>
+							<p>If you don't want to collapse the column content on mobile use not collapsed column structure.</p>
+							<p>Collapsed column structure:</p>
+							<pre class="brush: xml, toolbar: false">
+<div class="col-lg">
+   <div class="footer-block collapsed-mobile">
+      <div class="title">
+         <h4>Information</h4>
+         <div class="toggle-arrow"><span></span><span></span></div>
+      </div>
+      <div class="collapsed-content">
+         ...
+      </div>
+   </div>
+</div></pre>
+<p>Not collapsed column structure:</p>
+<pre class="brush: xml, toolbar: false">
+<div class="col-lg">
+   <div class="footer-block col-no-collapsed">
+      <div class="title">
+         <h4>Information</h4>
+       </div>
+       ...
+   </div>
+</div></pre>
+						</section>
+						
+						<h2 class="dark" id="Slider">Slider</h2>
+						<section id="SliderStructure">
+							<h2>Slider structure</h2>
+							<p>FOXic Template uses main slider (BN Slider) built with Slick Slider.
+								For more details about Slick Slider plugin, please visit its dedicated  <a href="http://kenwheeler.github.io/slick/" target="_blank">website</a>. </p>
+							<p>Here is the HTML code for the BN Slider:</p>
+							
+							<pre class="brush: xml, toolbar: false">
+<!-- Main Slider -->
+<div class="holder fullwidth full-nopad mt-0">
+    <div class="container">
+        <div class="bnslider-wrapper">
+            <div class="bnslider bnslider--lg bnslider--darkarrows keep-scale" id="bnslider-001" data-autoplay="true" data-speed="5000" data-start-width="1920" data-start-height="850" data-start-mwidth="480" data-start-mheight="578">
+                <!-- simple text slide -->
+                <div class="bnslider-slide">
+                    <div class="bnslider-image-mobile" style="background-image: url('images/slider/slide4-mobile.png');"></div>
+                    <div class="bnslider-image" style="background-image: url('images/slider/slide4.png');"></div>
+                    <div class="bnslider-text-wrap">
+                        <div class="bnslider-text-content">
+                            <div class="bnslider-text-content-flex">
+                                <div class="bnslider-vert">
+                                    <div class="bnslider-text">Text 1</div>
+                                    <div class="bnslider-text">Text 2</div>
+                                    ...
+                                    <div class="btn-wrap">
+                                        <a href="#" class="btn-decor">shop now<span class="btn-line"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- /simple text slide -->
+				<!-- video slide -->
+           			<div class="bnslider-slide" data-autoplay="true" data-video-type="video">
+        					<div class="video-wrap">
+        						<video loop muted preload="metadata" poster="images/slider/slide4.png">
+        							<source src="images/slider/slider-video.mp4" type="video/mp4">
+        						</video>
+        						<div class="video-control visible">
+        							<div class="video-play"><i class="icon-play"></i></div>
+        							<div class="video-stop"><i class="icon-pause"></i></div>
+        						</div>
+        					</div>
+        					<div class="bnslider-text-wrap bnslider-overlay">
+        						<div class="bnslider-text-content txt-middle txt-center">
+        							<div class="bnslider-text-content-flex container">
+        								<div class="bnslider-vert">
+        									<div class="bnslider-text bnslider-text--md text-center" data-animation="fx6" data-animation-delay="500" style="color: #39d3ba;">STEP IN TO ENHANCE</div>
+        									<div class="bnslider-text bnslider-text--md text-center mt-sm" data-animation="fx6" data-animation-delay="1000" style="color: #282828;">YOUR PERSONALITY</div>
+        									<div class="btn-wrap mt-xl text-center" data-animation="fadeInUp" data-animation-delay="1500"><a href="#" class="btn btn--xl">SHOP NOW</a></div>
+        								</div>
+        							</div>
+        						</div>
+        					</div>
+        				</div>
+				<!-- //video slide -->
+                ...
+            </div>
+			<!-- slider navigation -->
+            <div class="bnslider-loader">
+                <div class="loader-wrap">
+                    <div class="dots">
+                        <div class="dot one"></div>
+                        <div class="dot two"></div>
+                        <div class="dot three"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bnslider-arrows container-fluid"><div></div></div>
+            <div class="bnslider-dots vert-dots container-fluid"></div>
+			<!-- slider navigation -->
+        </div>
+    </div>
+</div>
+								<!-- //Main Slider --></pre>
+						</section>
+						<section id="SliderOptions">
+							<h2>Sliders Options</h2>
+							<h4>Slider Height</h4>
+							<p>Add a class name <mark>.bnslider--lg</mark>  or  <mark>.bnslider--md</mark>  or  <mark>.bnslider--sm</mark> to the div element <mark>.bnslider<mark> to set a fixed slider height </p>
+							<pre class="brush: xml, toolbar: false">
+<div class="bnslider bnslider--lg">
+    ...
+</div></pre>
+							<p>In this case, the slider will have a fixed height, but the images proportions will not be saved.</p>
+							<p>If you want to keep the aspect ratio of the image use class .keep-scale and set sliders width for desktop and mobile via data attrubures :</p>
+							<pre class="brush: xml, toolbar: false">
+<div class="bnslider keep-scale"
+	 data-start-width='1920'
+	 data-start-height='800'
+	 data-start-mwidth='480'
+	 data-start-mheight='480'>
+    ...
+</div></pre>
+							<p>Add a class <mark>.bnslider--fullheight</mark> to the div element <mark>.bnslider</mark> to set a full height slider.</p>
+							<pre class="brush: xml, toolbar: false">
+<div class="bnslider bnslider--fullheight">
+    ...
+</div>
+							</pre>
+							<br>
+							<h4>Other slider settings</h4>
+							<p>Other options you can find in the table below:</p>
+							<table class="table">
+								<tr>
+									<th>Banner Tag</th>
+									<th>Additional Classes / Data attributes</th>
+								</tr>
+								<tr>
+									<td><b>.bnslider-slide</b><br>
+										(Slide Item)</td>
+									<td>
+										For videos slide add attributes<br>
+										<mark>data-autoplay="true" / data-autoplay="false"<br>
+										data-video-type="video"</mark>
+									</td>
+								</tr>
+								<tr>
+									<td><b>.bnslider-image</b><br>
+										(Slide image)</td></td>
+									<td>
+										Slider Image (windows width >= 479px)
+									</td>
+								</tr>
+								<tr>
+									<td><b>.bnslider-image-mobile</b><br>
+										(Slide image)</td>
+									<td>Mobile Slider Image (windows width < 479px)</td>
+								</tr>
+								<tr>
+									<td><b>.bnslider-text-content</b><br>
+										(Slide Text caption)</td>
+									<td>For vertical alignment of the caption add classes<br>
+										<mark>.txt-top<br>
+										.txt-middle<br>
+											.txt-bottom<br></mark>
+										<br>
+										For horizontal alignment of the caption add classes<br>
+										<mark>.txt-left<br>
+										.txt-right<br>
+											.txt-center</td>
+								</tr>
+								<tr>
+									<td><b>.btn-wrap</b><br>
+										(Slider button wrapper)</td>
+									<td>To set the upper indent for the button add class<br>
+										<mark>.mt-xl<br>
+										.mt-lg<br>
+										.mt-md<br>
+										.mt-sm<br>
+											.mt-0</mark>
+										<br><br>
+										To change button horizontal alignment inside caption add classes
+										<mark>.txt-left<br>
+										.txt-right<br>
+											.txt-center</mark>
+									</td>
+								</tr>
+								<tr>
+									<td><b>.bnslider-arrows</b><br>
+										(Slider arrows)</td>
+									<td>Arrows in the boxed container (not full width)<br>
+										<mark>.container</mark>
+										<br><br>
+										Arrows fullwidth<br>
+										<mark>.container-fluid</mark></td>
+								</tr>
+								<tr>
+									<td><b>.bnslider-dots</b><br>
+										(Slider dots)</td>
+									<td>Dots in the boxed container (not full width)<br>
+										<mark>.container</mark>
+										<br><br>
+										Dots fullwidth<br>
+										<mark>.container-fluid</mark></td>
+								</tr>
+							</table>
+							<br>
+							<h4>Slider Text and Animations</h4>
+							<p>You can set typography parameters and animate text and button in each slide via data attributes:</p>
+							<pre class="brush: xml, toolbar: false">
+<div class="bnslider-text" data-attribute="" ...>
+    Your Text
+</div>
+...
+<div class="btn-wrap" data-attribute="" ...>
+    Button
+</div>
+							</pre>
+							<br>
+							<p>All slide text/button data attributes are provided below:</p>
+							<table class="table">
+								<tr>
+									<td>Attribute</td>
+									<td>Description</td>
+									<td>Recommended Value</td>
+									<td>Example</td>
+								</tr>
+								<tr>
+									<td><b>data-delay</b></td>
+									<td>Delay after previous text animation in ms</td>
+									<td>0 ... 10000</td>
+									<td><mark>data-delay="0"</mark></td>
+								</tr>
+								<tr>
+									<td>
+										<b>data-fontsize</b>
+									</td>
+									<td>Font size in relative value (vw)
+										1vw = 1% of viewport width</td>
+									<td>0 ... 30</td>
+									<td><mark>data-fontsize="4"</mark></td>
+								</tr>
+								<tr>
+									<td><b>data-fontline</b></td>
+									<td>Line height in em (default is 1.2em)
+										1em equal to fonts size value,
+										2em equal to fontsize*2</td>
+									<td>0.8 ... 3</td>
+									<td><mark>data-fontline="1.5"</mark></td>
+								</tr>
+								<tr>
+									<td><b>data-fontfamily</b></td>
+									<td>Font Family</td>
+									<td>-</td>
+									<td><mark>data-fontfamily="Geneva"</mark></td>
+								</tr>
+								<tr>
+									<td><b>data-fontcolor</b></td>
+									<td>Font Color</td>
+									<td>-</td>
+									<td><mark>data-fontcolor="red"</mark><br>
+										OR<br>
+										<mark>data-fontcolor="#ff0000"</mark></td>
+								</tr>
+								<tr>
+									<td><b>data-fontweight
+									</b></td>
+									<td>Font weight</td>
+									<td>normal (400)<br>
+										bold (700)<br>
+										lighter<br>
+										bolder<br>
+										OR numeric value:<br>
+										100, 200, 300, 400, 500, 600, 700, 800, 900</td>
+									<td><mark>data-fontweight="bold"</mark>
+										OR<br>
+										<mark>data-fontweight="700"</mark></td>
+								</tr>
+								<tr>
+									<td><b>data-animate</b></td>
+									<td>Text appear animation</td>
+									<td>fadeInDown, fadeInUp, fadeInLeft, fadeInRight, fadeIn, zoomIn, flipX, flipY,  fx1, fx2, fx3, fx4, fx5, fx6</td>
+									<td><mark>data-animate="flipY"</mark></td>
+								</tr>
+								<tr>
+									<td><b>data-otherstyle</b></td>
+									<td>Other inline styles</td>
+									<td>-</td>
+									<td><mark>data-otherstyle="font-style: italic; padding:5px;"</mark></td>
+								</tr>
+							</table>
+						</section>
+						
+						<h2 class="dark" id="ProductPreview">Product Preview</h2>
+						<section id="ProductVariants">
+							<h2>Product Previews Variants</h2>
+							<p>You can choose between 3 types of products preview.</p><br>
+							<h4>Product Preview Variant 1</h4>
+							<p><img src="images/screen/product1.gif" alt=""></p>
+							<br>
+							<pre class="brush: xml, toolbar: false">
+<div class="prd prd--style2 prd-labels--max prd-labels-shadow ">
+   <div class="prd-inside">
+      <div class="prd-img-area">
+         <a href="product.html" class="prd-img image-hover-scale image-container" style="padding-bottom: 128.48%">
+            <img data-src="images/skins/fashion2/products/product-03-1.jpg" alt="Oversized Cotton Blouse" class="js-prd-img lazyload fade-up">
+            <div class="foxic-loader"></div>
+            <div class="prd-big-squared-labels">
+               <div class="label-new"><span>New</span></div>
+               <div class="label-sale">
+                  <span>-10% <span class="sale-text">Sale</span></span>
+                  <div class="countdown-circle">
+                     <div class="countdown js-countdown" data-countdown="2020/05/31"></div>
+                  </div>
+               </div>
+            </div>
+         </a>
+         <div class="prd-circle-labels">
+            <a href="#" class="circle-label-compare js-label-compare"><i class="icon-compare-1"></i><span>COMPARE</span></a>
+            <a href="#" class="circle-label-qview js-prd-quickview prd-hide-mobile" data-fancybox data-src="ajax-quickview.html"><i class="icon-eye"></i><span>QUICK VIEW</span></a>
+         </div>
+         <ul class="list-options color-swatch">
+            <li data-image="images/skins/fashion2/products/product-03-1.jpg" class="active"><a href="#" class="js-color-toggle" data-toggle="tooltip" data-placement="right" title="Color Name"><img data-src="images/skins/fashion2/products/product-03-1.jpg" class="lazyload fade-up" alt="Color Name"></a></li>
+            <li data-image="images/skins/fashion2/products/product-03-2.jpg"><a href="#" class="js-color-toggle" data-toggle="tooltip" data-placement="right" title="Color Name"><img data-src="images/skins/fashion2/products/product-03-2.jpg" class="lazyload fade-up" alt="Color Name"></a></li>
+            <li data-image="images/skins/fashion2/products/product-03-3.jpg"><a href="#" class="js-color-toggle" data-toggle="tooltip" data-placement="right" title="Color Name"><img data-src="images/skins/fashion2/products/product-03-3.jpg" class="lazyload fade-up" alt="Color Name"></a></li>
+         </ul>
+      </div>
+      <div class="prd-info">
+         <div class="prd-info-wrap">
+            <div class="prd-info-top">
+               <div class="prd-rating"><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i></div>
+            </div>
+            <div class="prd-rating justify-content-center"><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i></div>
+            <div class="prd-tag"><a href="#">Banita</a></div>
+            <h2 class="prd-title"><a href="product.html">Oversized Cotton Blouse</a></h2>
+            <div class="prd-description">
+               Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi.
+            </div>
+         </div>
+         <div class="prd-hovers">
+            <div class="prd-circle-labels">
+               <div><a href="#" class="circle-label-compare js-label-compare"><i class="icon-compare-1"></i><span>COMPARE</span></a></div>
+               <div><a href="#" class="circle-label-qview prd-hide-mobile js-prd-quickview" data-fancybox data-src="ajax-quickview.html"><i class="icon-eye"></i><span>QUICK VIEW</span></a></div>
+            </div>
+            <div class="prd-price">
+               <div class="price-old">$ 200</div>
+               <div class="price-new">$ 180</div>
+            </div>
+            <div class="prd-action">
+               <div class="prd-action-left">
+                  <form action="#">
+                     <button class="btn js-prd-addtocart" data-product='{"name": "Oversized Cotton Blouse", "path":"images/skins/fashion2/products/product-03-1.jpg", "url":"product.html", "aspect_ratio":0.778}'>Add To Cart</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div></pre>
+							<br>
+							<h4>Product Preview Variant 2</h4>
+							<p><img src="images/screen/product1.gif" alt=""></p><br>
+							<pre class="brush: xml, toolbar: false">
+<div class="prd">
+   <div class="prd-inside">
+      <div class="prd-img-area">
+         <a href="product.html" class="prd-img image-hover-scale image-container" style="padding-bottom: 128.48%">
+            <img data-src="images/products/product-01.jpg" alt="Legging Red/Black" class="js-prd-img lazyload">
+            <div class="foxic-loader"></div>
+            <div class="prd-big-circle-labels">
+               <div class="label-sale">
+                  <span>-10% <span class="sale-text">Sale</span></span>
+                  <div class="countdown-circle">
+                     <div class="countdown js-countdown" data-countdown="2020/05/31"></div>
+                  </div>
+               </div>
+            </div>
+         </a>
+         <div class="prd-circle-labels">
+            <a href="#" class="circle-label-compare js-label-compare"><i class="icon-compare-1"></i><span>COMPARE</span></a><a href="#" class="circle-label-qview js-prd-quickview prd-hide-mobile" data-fancybox data-src="ajax-quickview.html"><i class="icon-eye"></i><span>QUICK VIEW</span></a>
+            <div class="colorswatch-label colorswatch-label--variants js-prd-colorswatch">
+               <i class="icon-palette"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></i>
+               <ul>
+                  <li data-image="images/products/product-01.jpg"><a class="js-color-toggle" data-toggle="tooltip" data-placement="left" title="Color Name"><img src="images/colorswatch/color-red.png" alt=""></a></li>
+                  <li data-image="images/products/product-01-1.jpg"><a class="js-color-toggle" data-toggle="tooltip" data-placement="left" title="Color Name"><img src="images/colorswatch/color-mint.png" alt=""></a></li>
+                  <li data-image="images/products/product-01-2.jpg"><a class="js-color-toggle" data-toggle="tooltip" data-placement="left" title="Color Name"><img src="images/colorswatch/color-violet.png" alt=""></a></li>
+                  <li data-image="images/products/product-01-3.jpg"><a class="js-color-toggle" data-toggle="tooltip" data-placement="left" title="Color Name"><img src="images/colorswatch/color-green.png" alt=""></a></li>
+               </ul>
+            </div>
+         </div>
+         <ul class="list-options color-swatch">
+            <li data-image="images/products/product-01.jpg" class="active"><a href="#" class="js-color-toggle" data-toggle="tooltip" data-placement="right" title="Color Name"><img data-src="images/products/product-01.jpg" class="lazyload fade-up" alt="Color Name"></a></li>
+            <li data-image="images/products/product-01-1.jpg"><a href="#" class="js-color-toggle" data-toggle="tooltip" data-placement="right" title="Color Name"><img data-src="images/products/product-01-1.jpg" class="lazyload fade-up" alt="Color Name"></a></li>
+            <li data-image="images/products/product-01-2.jpg"><a href="#" class="js-color-toggle" data-toggle="tooltip" data-placement="right" title="Color Name"><img data-src="images/products/product-01-2.jpg" class="lazyload fade-up" alt="Color Name"></a></li>
+            <li data-image="images/products/product-01-3.jpg"><a href="#" class="js-color-toggle" data-toggle="tooltip" data-placement="right" title="Color Name"><img data-src="images/products/product-01-3.jpg" class="lazyload fade-up" alt="Color Name"></a></li>
+         </ul>
+      </div>
+      <div class="prd-info">
+         <div class="prd-info-wrap">
+            <div class="prd-info-top">
+               <div class="prd-rating"><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i></div>
+               <div class="prd-tag"><a href="#">FOXic</a></div>
+            </div>
+            <h2 class="prd-title"><a href="product.html">Legging Red/Black</a></h2>
+            <div class="prd-description">Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi.</div>
+         </div>
+         <div class="prd-hovers">
+            <div class="prd-circle-labels">
+               <div><a href="#" class="circle-label-compare js-label-compare"><i class="icon-compare-1"></i><span>COMPARE</span></a></div>
+               <div><a href="#" class="circle-label-qview prd-hide-mobile js-prd-quickview" data-fancybox data-src="ajax-quickview.html"><i class="icon-eye"></i><span>QUICK VIEW</span></a></div>
+            </div>
+            <div class="prd-price">
+               <div class="price-old">$ 200</div>
+               <div class="price-new">$ 180</div>
+            </div>
+            <div class="prd-action">
+               <div class="prd-action-left">
+                  <form action="#"><button class="btn js-prd-addtocart" data-product='{"name": "Legging Red/Black", "path":"images/products/product-01.jpg", "url":"product.html", "aspect_ratio":0.778}'>Add To Cart</button></form>
+               </div>
+               <div class="prd-action-right">
+                  <div class="prd-action-right-inside">
+                     <div class="prd-tag"><a href="#">FOXic</a></div>
+                     <div class="prd-rating"><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div></pre>
+							<br>
+							<h4>Product Preview Variant 3</h4>
+							<p><img src="images/screen/product1.gif" alt=""></p><br>
+							<pre class="brush: xml, toolbar: false">
+<div class="prd prd-hor">
+   <div class="prd-inside">
+      <div class="prd-img-area">
+         <a href="product.html" class="prd-img image-hover-scale image-container" style="padding-bottom: 128.48%">
+            <img data-src="images/products/product-07.jpg" alt="Fitness Jumpsuit Black/Yellow" class="js-prd-img lazyload">
+            <div class="foxic-loader"></div>
+            <div class="prd-big-circle-labels">
+               <div class="label-new"><span>New</span></div>
+               <div class="label-sale"><span>-10% <span class="sale-text">Sale</span></span></div>
+            </div>
+         </a>
+         <div class="prd-circle-labels"><a href="#" class="circle-label-compare js-label-compare"><i class="icon-compare-1"></i><span>COMPARE</span></a><a href="#" class="circle-label-qview js-prd-quickview prd-hide-mobile" data-fancybox data-src="ajax-quickview.html"><i class="icon-eye"></i><span>QUICK VIEW</span></a></div>
+      </div>
+      <div class="prd-info">
+         <div class="prd-info-wrap">
+            <div class="prd-info-top">
+               <div class="prd-rating"><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i></div>
+               <div class="prd-tag"><a href="#">FOXic</a></div>
+            </div>
+            <h2 class="prd-title"><a href="product.html">Fitness Jumpsuit Black/Yellow</a></h2>
+            <div class="prd-description">Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi.</div>
+         </div>
+         <div class="prd-hovers">
+            <div class="prd-circle-labels">
+               <div><a href="#" class="circle-label-compare js-label-compare"><i class="icon-compare-1"></i><span>COMPARE</span></a></div>
+               <div><a href="#" class="circle-label-qview prd-hide-mobile js-prd-quickview" data-fancybox data-src="ajax-quickview.html"><i class="icon-eye"></i><span>QUICK VIEW</span></a></div>
+            </div>
+            <div class="prd-price">
+               <div class="price-old">$ 159</div>
+               <div class="price-new">$ 129</div>
+            </div>
+            <div class="prd-action">
+               <div class="prd-action-left">
+                  <form action="#"><button class="btn js-prd-addtocart" data-product='{"name": "Fitness Jumpsuit Black/Yellow", "path":"images/products/product-07.jpg", "url":"product.html", "aspect_ratio":0.778}'>Add To Cart</button></form>
+               </div>
+               <div class="prd-action-right">
+                  <div class="prd-action-right-inside">
+                     <div class="prd-tag"><a href="#">FOXic</a></div>
+                     <div class="prd-rating"><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i><i class="icon-star-fill fill"></i></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div></pre>
+						</section>
+						<section id="CountDown">
+							<h2>CountDown</h2>
+							<p>You can put a countdown on the product preview or on the product pages of your shop and use it to highlight certain offers or deals.</p>
+							<p><img src="images/screen/product-countdown.png" alt=""><br><small>Products preview with countdown</small></p>
+							<br>
+							<p><img src="images/screen/product-page-countdown.png" alt=""><br><small>Products page countdown</small></p>
+							<br>
+							<p>There are two ways to set the final countdown date. Please see them below:</p>
+							<p>1. Set attribute <mark>data-promodate</mark>. In this case, a countdown date will end at a set date.</p>
+							<pre class="brush: xml, toolbar: false">
+<div class="countdown-box">
+    <div class="countdown js-countdown" data-countdown="2019/12/31"></div>
+</div></pre>
+							<p>2. Set attribute <mark>data-promoperiod</mark>. In this case, countdown date will never end and calculates as current date add attribute value in seconds. For example, data-promoperiod="100000000" will set promo period as 1d 03h 46m 40s.</p>
+							<pre class="brush: xml, toolbar: false">
+<div class="countdown-box">
+    <div class="countdown js-countdown" data-promoperiod="100000000"></div>
+</div></pre>
+							<p>For product preview with a countdown use class <mark>.prd.prd-has-countdown</mark></p>
+							<p>For more details on the countdown plugin, please visit its dedicated <a href="http://hilios.github.io/jQuery.countdown/documentation.html" target="_blank">website</a>.</p>
+						</section>
+						<section id="ProductLabels">
+							<h2>Product Labels</h2>
+							<p>You can use 3 different label styles in the Product Preview</p>
+							<br>
+							<h4>Squared Labels</h4>
+							<p><img src="images/screen/product-labels1.png" alt=""></p><br>
+							<pre class="brush: xml, toolbar: false">
+<div cass="prd">
+    ...
+    <div class="prd-big-squared-labels">
+				<div class="label-new"><span>New</span></div>
+				<div class="label-sale"><span>-10% <span class="sale-text">Sale</span></span></div>
+    </div>
+    ...
+</div>
+							</pre>
+							<br><br>
+							<h4>Big Circle Labels</h4>
+							<p><img src="images/screen/product-labels2.png" alt=""></p><br>
+							<pre class="brush: xml, toolbar: false">
+<div cass="prd">
+    ...
+    <div class="prd-circle-labels">
+				<div class="label-new"><span>New</span></div>
+				<div class="label-sale"><span>-10% <span class="sale-text">Sale</span></span>
+					<div class="countdown-circle">
+						<div class="countdown js-countdown" data-countdown="2020/05/31"></div>
+					</div>
+				</div>
+    </div>
+    ...
+</div></pre>
+							<br><br>
+							<h4>Small Circle Labels</h4>
+							<p><img src="images/screen/product-labels3.png" alt=""></p><br>
+							<pre class="brush: xml, toolbar: false">
+<div cass="prd prd-labels--max">
+    ...
+    <div class="prd-circle-labels">
+				<div class="label-new"><span>New</span></div>
+				<div class="label-sale"><span>-10% <span class="sale-text">Sale</span></span></div>
+    </div>
+    ...
+</div>
+							</pre>
+						</section>
+						<section id="QuickView">
+							<h2>Quick View</h2>
+							<p>Quick View adds the possibility to have a quick preview of the products. </p>
+							<br>
+							<p><img src="images/screen/qview.PNG" alt=""></p>
+							<p>For using QuickView add class a.js-prd-quickview to a link:</p>
+							<pre class="brush: xml, toolbar: false">
+<a href="#" class="circle-label-qview js-prd-quickview prd-hide-mobile" data-fancybox data-src="ajax-quickview.html">
+    <i class="icon-eye"></i><span>QUICK VIEW</span>
+</a>
+							</pre>
+							<br>
+							<p>Products information loads on the Modal via AJAX.  AJAX content should have such a structure:</p>
+							<pre class="brush: xml, toolbar: false"><div class="modal--quickview modal-quickview--classic fancybox-content" id="modalQuickView">
+    <div class="modal-content">
+        <div class="prd-block prd-block--prv-bottom" id="prdGalleryModal">
+            <!-- Product Block Code -->
+        </div>
+    </div>
+</div></pre>
+							<br>
+							<p>For more details about the Fancybox Modal plugin, please visit its dedicated <a href="" target="_blank">website</a>.</p>
+						</section>
+						<section id="ProductGrid">
+							<h2>Product Grid</h2>
+							<p>You can display product previews as a grid. Using classes (<mark>.data-show-*</mark>), you can set the number of products in a row at different breakpoints.</p>
+							<pre class="brush: xml, toolbar: false">
+								<div class="prd-grid data-to-show-4 data-to-show-md-3 data-to-show-sm-2">
+									...
+								</div>
+								</pre>
+							<p>For more details on the carousel plugin, please visit its dedicated  <a href="http://kenwheeler.github.io/slick/" target="_blank">website</a>. </p>
+						</section>
+						<section id="ProductCarousel">
+							<h2>Product Carousel</h2>
+							<p>You can display product previews as a carousel. For use carousel add class <mark>.prd-carousel.js-prd-carousel</mark>
+								to product previews wrapper:</p>
+							<pre class="brush: xml, toolbar: false">
+							<div class="prd-grid prd-carousel js-prd-carousel"
+								 data-slick='{
+									"slidesToShow": 4,
+									"responsive": [{
+										"breakpoint": 992,
+										"settings": {"slidesToShow": 3}},{
+										"breakpoint": 768,
+										"settings": {"slidesToShow": 2}},{
+										"breakpoint": 480,"settings": {"slidesToShow": 2}}]}'>
+								...
+							</div>
+							</pre>
+							<p>For more details on the carousel plugin, please visit its dedicated  <a href="http://kenwheeler.github.io/slick/" target="_blank">website</a>. </p>
+						</section>
+						
+						<section id="ProductPage">
+							<h2 class="dark">Product Page</h2>
+							<p>FOXic helps you make your Product Page any way you want. You can choose and customize any of the seven types of this page.</p><br>
+							<h4>Product Page Variant 1 - <a href="https://big-skins.com/frontend/foxic-html-demo/product.html">view demo</a></h4>
+							<p>Product gallery + Product previews carousel at the bottom in one row</p>
+							<p><img src="images/screen/pp-1.png" alt=""></p>
+							<br>
+							<h4>Product Page Variant 2 - <a href="https://big-skins.com/frontend/foxic-html-demo/product-2.html">view demo</a></h4>
+							<p>Product gallery + Product previews carousel at the left in two columns</p>
+							<p><img src="images/screen/pp-2.png" alt=""></p>
+							<br>
+							<h4>Product Page Variant 3 - <a href="https://big-skins.com/frontend/foxic-html-demo/product-3.html">view demo</a></h4>
+							<p>Product gallery + Product previews carousel at the right in two columns</p>
+							<p><img src="images/screen/pp-3.png" alt=""></p>
+							<br>
+							<h4>Product Page Variant 4 - <a href="https://big-skins.com/frontend/foxic-html-demo/product-4.html">view demo</a></h4>
+							<p>Product gallery + Product previews carousel at the left in one column</p>
+							<p><img src="images/screen/pp-4.png" alt=""></p>
+							<br>
+							<h4>Product Page Variant 5 - <a href="https://big-skins.com/frontend/foxic-html-demo/product-5.html">view demo</a></h4>
+							<p>Product gallery + Product previews carousel at the right in one column</p>
+							<p><img src="images/screen/pp-5.png" alt=""></p>
+						</section>
+						
+						<h2 class="dark" id="CategoryPage">Category Page</h2>
+						<section id="ProductGridMode">
+							<h2>Product View Mode</h2>
+							<p>You can select one of three product view mode in a category page.</p><br>
+							<h4>Grid View</h4><br>
+<pre class="brush: xml, toolbar: false">
+<div class="product-listing prd-grid">
+    ...
+</div></pre><br>
+							<p><img src="images/screen/cp-1.png" alt="" class="img-border"></p>
+							<br>
+							<h4>Horizontal Card Grid</h4><br>
+							<pre class="brush: xml, toolbar: false">
+<div class="product-listing prd-horgrid">
+    ...
+</div></pre><br>
+							<p><img src="images/screen/cp-2.png" alt="" class="img-border"></p>
+							<br>
+							<h4>List View</h4><br>
+							<pre class="brush: xml, toolbar: false">
+<div class="product-listing prd-listview">
+    ...
+</div></pre><br>
+							<p><img src="images/screen/cp-3.png" alt="" class="img-border"></p>
+							<br>
+						</section>
+						<section id="ProductFiltersPosition">
+							<h2>Product Filters Position</h2>
+							<br>
+							<h4>Product Filters at the left/right side - <a href="https://big-skins.com/frontend/foxic-html-demo/category.html" target="_blank">demo​</a></h4>
+							<p><img src="images/screen/fp-1.png" alt="" class="img-border"></p>
+							<br>
+							<h4>Product Filters collapsed - <a href="https://big-skins.com/frontend/foxic-html-demo/category-closed-filter.html" target="_blank">demo​</a></h4>
+							<p><img src="images/screen/fp-2.gif" alt="" class="img-border"></p>
+							<br>
+							<h4>Product Filters at the top - <a href="https://big-skins.com/frontend/foxic-html-demo/category-horizontal-filter.html" target="_blank">demo​</a></h4>
+							<p><img src="images/screen/fp-3.png" alt="" class="img-border"></p>
+						</section>
+						
+						<section id="Typography">
+							<h2 class="dark">Typography</h2>
+							<p>You can see all typography elements in this example <a href="https://big-skins.com/frontend/foxic-html-demo/typography.html" target="_blank">Example</a>.</p>
+						</section>
+						
+						<section id="Icons">
+							<h2 class="dark">Icons Font</h2>
+							<p>FOXic Template uses simply and flexible icon library IcoMoon. IcoMoon is striving to build and provide the best iconography and icon management tool for perfectionists.</p>
+							<p>If you want to add new icon to the library follow instruction, provided below:</p>
+							<p>1. Go to
+								<a href="https://icomoon.io/app/#/select"></a>. Click the button <b>Import icons</b> and choose file  fonts/icomoon/selection.json. Select 'Yes' in the modal window:</p>
+							<br> <img src="images/screen/icon-0.jpg" alt="" class="img-fluid img-border">
+							<br>
+							<p><b>All FOXic icons will be imported</b></p>
+							<br> <img src="images/screen/icon-1.jpg" alt="" class="img-fluid">
+							<br>
+							<p>2. Then <b>select</b> new icon(s)</p>
+							<br> <img src="images/screen/icon-2.jpg" alt="" class="img-fluid">
+							<br>
+							<p>3. <b>Generate</b> your custom font</p>
+							<br> <img src="images/screen/icon-3.jpg" alt="" class="img-fluid">
+							<br>
+							<p>4. <b>Download</b> new Icons Set, unzip archive and copy all files to 'font/icomoon/' folder of your project</p>
+							<br>
+							<p>5. Find new icon in <mark>demo.html</mark> and use it in your <b>HTML code</b></p>
+							<p>For example like this:</p> <pre class="brush: xml, toolbar: false">
+							<i class="icon icon-drink"></i>
+							<i class="icon icon-coffee"></i>
+							<i class="icon icon-mug"></i></pre> <img src="images/screen/icon-4.jpg" alt="" class="img-fluid"> </section>
+						<section id="Instagram">
+							<h1>Instagram</h1>
+							<p>FOXic Template uses instagram feed plugin <a href="https://instafeedjs.com/" target="_blank">instafeed.js</a>. Instafeed.js is a simple way to display your Instagram photos on your website.</p>
+							<p>First your need tFirst of all, you need to get Instagram Feed Access Token. Please follow instruction, provided below:</p>
+							<br>
+							<h4>1. Create app from <a href="https://developers.facebook.com/" target="_blank">here</a></h4>
+							<img src="images/screen/inst-1.png" alt="" class="img-fluid">
+							<br><br>
+							<p>Enter the neccesary information to create app. Click on Create App ID:</p>
+							<img src="images/screen/inst-2.png" alt="" class="img-fluid"><br><br>
+							<img src="images/screen/inst-3.png" alt="" class="img-fluid"><br><br>
+							<br>
+							<h4>2. Add Website</h4>
+							<p>After creating app, click on <b>Settings > Basic > Add Platform</b></p>
+							<img src="images/screen/inst-4.png" alt="" class="img-fluid"><br><br>
+							<p>Choose Website</p>
+							<img src="images/screen/inst-5.png" alt="" class="img-fluid"><br><br>
+							<p>Enter your website URL and press <b>Save Changes</b> button</p>
+							<img src="images/screen/inst-6.png" alt="" class="img-fluid"><br><br>
+							<h4>3. Set Up Instagram Feed Access Token</h4>
+							<p>Click on Product and then choose Set Up in Instagram field</p>
+							<img src="images/screen/inst-7.png" alt="" class="img-fluid"><br><br>
+							<p>Display the information of Instagram at the left of screen. C<br>lick <b>Basic Display > Create New App</b></p>
+							<img src="images/screen/inst-8.png" alt="" class="img-fluid"><br><br>
+							<p>There is a field to enter app information, enter app information and then click on <b>Create App</b></p>
+							<img src="images/screen/inst-9.png" alt="" class="img-fluid"><br><br>
+							<p>There are three more fields of Client OAuth Setting, enter the required information (your website URL) into these fields and press button <b>Save Change</b></p>
+							<img src="images/screen/inst-10.png" alt="" class="img-fluid"><br><br>
+							<h4>4. Add Instagram Testers</h4>
+							<p>Go to <b>Roles > Roles</b>. In the Instagram Tester field, choose <b>Add Instagram Testers</b></p>
+							<img src="images/screen/inst-11.png" alt="" class="img-fluid"><br><br>
+							<p>Add username of the account that you want to add and press <b>Submit</b></p>
+							<img src="images/screen/inst-12.png" alt="" class="img-fluid"><br><br>
+							<p>Then login to the Instagram account that you want to add and click on the cogwheel icon. Choose <b>Apps and Websites</b></p>
+							<img src="images/screen/inst-13.png" alt="" class="img-fluid"><br><br>
+							<p>Click on Tester Invites and press <b>Accept</b> button</p>
+							<img src="images/screen/inst-14.png" alt="" class="img-fluid"><br><br>
+							<h4>5. Generate Instagram Feed Access Token</h4>
+							<p>Go back to Facebook App, choose <b>Instagram > Basic Display</b>. In the User Token Generator field, click on <b>Generate Token</b></p>
+							<img src="images/screen/inst-15.png" alt="" class="img-fluid"><br><br>
+							<p>Display Instagram login form, enter your credential and click <b>Login</b>. Then click on <b>Authorize</b></p>
+							<img src="images/screen/inst-16.png" alt="" class="img-fluid"><br><br>
+							<p>Display Instagram Access Token. Click on Copy</p>
+							<img src="images/screen/inst-17.png" alt="" class="img-fluid"><br><br>
+							<h4>6. Paste your Token in the HTML code</h4>
+							<pre class="brush: xml, toolbar: false">
+		<div class="instagram-carousel">
+			<div id="instafeed" class="instagram-feed-full js-instagram-feed" data-tag='bigstepsfoxicDemo' data-token='*************************' data-limit='24'></div>
+		</div>
+							</pre><br>
+							<p>You can also use these data attrubures:<br>
+								<b>data-tag</b> - filter images by hashtag,<br>
+								<b>data-limit</b> - maximum number of images
+							</p>
+							<p>More about the instafeed plugin you can read <a href="https://instafeedjs.com/" target="_blank">here</a></p>
+						</section>
+						<!--<section id="Gulp">-->
+							<!--<h1>Gulp</h1>-->
+							<!--<p>Gulp is a command-line task runner for Node.js. Gulp let you automate processes and run repetitive tasks with ease.</p>-->
+							<!--<p>For more on the Gulp, please visit its official <a href="https://gulpjs.com/docs/en/getting-started/quick-start/" target="_blank">website</a>. You can use these tasks for create your project:</p>-->
+							<!--<p><code>gulp watch</code> - watching and re-running a task when a change occurs</p>-->
+							<!--<p><code>gulp preWatch</code> - build all project</p>-->
+							<!--<p><code>gulp buildVendor</code> - create CSS an JS vendor files</p>-->
+						<!--</section>-->
+						<section id="Credits">
+							<h1>Credit</h1>
+							<p>FOXic Template uses jQuery plugins and CSS library provided below:.</p>
+							<ul class="marked-list">
+								<li><a href="http://jquery.com/ " target="_blank">jQuery</a>- JavaScript Library</li>
+								<li><a href="http://getbootstrap.com/ " target="_blank">Bootstrap</a>- Bootstrap by Twitter</li>
+								<li><a href="http://kenwheeler.github.io " target="_blank">Slick</a>- jQuery carousel plugin</li>
+								<li><a href="http://isotope.metafizzy.co/ " target="_blank">Isotope</a>- jQuery plugin filter &amp; sort plugin</li>
+								<li><a href="http://imagesloaded.desandro.com/ " target="_blank">Images Loaded</a> - jQuery plugin for detect when images are loaded</li>
+								<li><a href="http://hilios.github.io/jQuery.countdown/ " target="_blank">jQuery Countdown</a>- jQuery Countdown plugin</li>
+								<li><a href="http://fancyapps.com/fancybox/3/" target="_blank">Fancybox 3</a>- jQuery popup plugin</li>
+								<li><a href="http://elevateweb.co.uk/image-zoom " target="_blank">jQuery elevateZoom</a>- jQuery imagezoom plugin</li>
+								<li><a href="http://igorlino.github.io/elevatezoom-plus/ " target="_blank">jQuery ezPlus</a>- jQuery imagezoom plugin</li>
+								<li><a href="https://github.com/jzaefferer/jquery-validation" target="_blank"> jQuery Validation Plugin</a></li>
+								<li><a href="https://github.com/malsup/form#copyright-and-license" target="_blank">jQuery Form Plugin</a></li>
+								<li><a href="http://instafeedjs.com/" target="_blank">jQuery Instagram Feed</a></li>
+								<li><a href="http://rubentd.com/darktooltip/" target="_blank">jQuery Bootstrap TabCollapse</a></li>
+								<li><a href="https://github.com/MohammadYounes/jquery-scrollLock/" target="_blank">jQuery ScrollLock</a></li>
+								<li><a href="http://utatti.github.io/perfect-scrollbar/" target="_blank">Perfect Scrollbar</a>- jQuery custom scrollbar plugin</li>
+								<li><a href="https://github.com/aFarkas/lazysizes" target="_blank">Lazysizes</a>- jQuery lazy loader plugin</li>
+								<li><a href="https://github.com/carhartl/jquery-cookie/" target="_blank">jQuery cookie</a></li>
+								<li><a href="https://daneden.github.io/animate.css/" target="_blank">CSS Animation Library</a></li>
+							</ul>
+							<hr />
+							<p><b>Hope you will enjoy FOXic Template!</b></p>
+							<p>Kind Regards,
+								<br> <strong>BigSteps</strong></p>
+						</section>
+					</div>
+				</div>
+			</div>
+			</div>
+			<!-- /#page-content-wrapper -->
+		</div>
+	</div>
+	<!-- /#wrapper -->
+	<!-- /Page Content -->
+	<!-- Footer -->
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row-flex">
+				<div class="logo">
+					<a href="#"><img src="images/logo-footer.png" alt=""></a>
+				</div>
+				<div class="copyright">
+					© Copyright 2021 BigSteps
+				</div>
+				<div class="footer-link">
+					<div><span class="icon icon-call"></span> <a href="http://help.big-skins.com/" target="_blank">online support</a></div>
+					<div class="time"><span class="icon icon-clock"></span> MON-FRI: 10:00AM-18:00PM GMT + 2</div>
+					<div>
+						<a href="https://themeforest.net/user/bigsteps" target="_blank"><i class="icon icon-themeforest"></i></a>
+						<a href="https://www.twitter.com/BigStepsCompany/" target="_blank"><i class="icon icon-twitter"></i></a>
+						<a href="https://www.facebook.com/BigStepsCompany/" target="_blank"><i class="icon icon-facebook"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'></script>
+	<script src='js/index.js'></script>
+	<!-- jQuery Syntax Highlighter -->
+	<script type="text/javascript" src="js/syntaxhighlighter/scripts/shCore.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter/scripts/shBrushXml.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+	<script type="text/javascript">
+		SyntaxHighlighter.all()
+	</script>
+
+</body>
+
+</html>
